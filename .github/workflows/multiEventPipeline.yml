@@ -6,9 +6,10 @@ on:
       - test
   pull_request: # Event: Whenever a pull request is made to the repository
     branches: 
-        -master
+        - master
     types:
         - closed
+        - opened
   workflow_dispatch:
 
 
